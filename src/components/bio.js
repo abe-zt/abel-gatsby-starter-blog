@@ -58,6 +58,7 @@ const Bio = () => {
         Diego building useful things.
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
+          Abel's Twitter
         </a>
       </p>
     </div>
