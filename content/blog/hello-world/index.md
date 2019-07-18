@@ -1,6 +1,7 @@
 ---
 title: A little about me...
 date: "2019-07-16"
+description: This is my first post on my new blog!
 ---
 
 This is my first post on my new blog! How exciting!

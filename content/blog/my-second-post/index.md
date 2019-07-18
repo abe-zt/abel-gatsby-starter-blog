@@ -1,13 +1,15 @@
 ---
 title: My Second Post!
-date: "2015-05-06T23:46:37.121Z"
+date: "2019-07-17T23:46:37.121Z"
 ---
 
-Wow! I love blogging so much already.
+Learning CSS animations with keyframes!
 
-Did you know that "despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich."?
-([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))
+Check out my CodePen:
 
-Yeah, I didn't either.
+<iframe height="415" style="width: 100%;" scrolling="no" title="Hero Image 2.0" src="//codepen.io/abe-zt/embed/preview/ydbvvJ/?height=415&theme-id=0&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/abe-zt/pen/ydbvvJ/'>Hero Image 2.0</a> by Abel
+  (<a href='https://codepen.io/abe-zt'>@abe-zt</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+Yeah, I didn't know how to do this at first!
