@@ -56,7 +56,6 @@ const Bio = () => {
       <p>
         <strong>{author}</strong> lives and works in San
         Diego building useful things.
-        {` `}
         <br/>
         <a href={`https://twitter.com/${social.twitter}`}>
           Abel's Twitter
