@@ -1,5 +1,6 @@
 ---
-title: My Second Post!
+title: My Second Post! Learning CSS animations with keyframes!
+
 date: "2019-07-17T23:46:37.121Z"
 ---
 
@@ -12,4 +13,4 @@ Check out my CodePen:
   (<a href='https://codepen.io/abe-zt'>@abe-zt</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-Yeah, I didn't know how to do this at first!
+Phew, it worked!
