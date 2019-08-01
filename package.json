@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "gatsby": "^2.13.21",
-    "gatsby-cli": "^2.7.18",
+    "gatsby-cli": "^2.7.22",
     "gatsby-image": "^2.2.6",
     "gatsby-plugin-feed": "^2.3.4",
     "gatsby-plugin-google-analytics": "^2.1.4",
@@ -34,11 +34,14 @@
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
     "typography": "^0.16.19",
+    "typography-theme-lincoln": "^0.16.19",
+    "typography-theme-moraga": "^0.16.19",
     "typography-theme-stow-lake": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.18.2",
+    "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",

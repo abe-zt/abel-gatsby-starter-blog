@@ -16,7 +16,7 @@ const Bio = () => {
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
         childImageSharp {
-          fixed(width: 100, height: 100) {
+          fixed(width: 125, height: 125) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -55,7 +55,7 @@ const Bio = () => {
       />
       <p>
         <strong>{author}</strong> lives and works in San
-        Diego building useful things.
+        Diego, CA
         {` `}
         <br/>
         <a href={`https://twitter.com/${social.twitter}`}>

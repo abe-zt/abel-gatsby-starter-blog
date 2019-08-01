@@ -1,7 +1,7 @@
 import Typography from "typography"
-import stowLakeTheme from "typography-theme-stow-lake"
+import lincolnTheme from "typography-theme-lincoln"
 
-stowLakeTheme.overrideThemeStyles = () => {
+lincolnTheme.overrideThemeStyles = () => {
   return {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
@@ -9,9 +9,9 @@ stowLakeTheme.overrideThemeStyles = () => {
   }
 }
 
-delete stowLakeTheme.googleFonts
+delete lincolnTheme.googleFonts
 
-const typography = new Typography(stowLakeTheme)
+const typography = new Typography(lincolnTheme)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
@@ -21,3 +21,4 @@ if (process.env.NODE_ENV !== `production`) {
 export default typography
 export const rhythm = typography.rhythm
 export const scale = typography.scale
+export const options = typography.options

@@ -1,10 +1,10 @@
 ---
-title: My Second Post! Learning CSS animations with keyframes!
+title: "My Second Post: CSS animations"
 
 date: "2019-07-17T23:46:37.121Z"
 ---
 
-Learning CSS animations with keyframes!
+Learning CSS animations with keyframes
 
 Check out my CodePen:
 
