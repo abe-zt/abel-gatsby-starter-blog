@@ -1,5 +1,5 @@
 ---
-title: "My Second Post: CSS animations"
+title: "My Second Post: CSS animations via keyframes"
 
 date: "2019-07-17T23:46:37.121Z"
 ---
