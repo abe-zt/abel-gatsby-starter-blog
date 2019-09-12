@@ -11,45 +11,39 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            //marginBottom: rhythm(3),
-            marginTop: 0,
-          }}
-        >
-          <Link
+        <div className="header-1">
+          <h1
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              ...scale(2),
+              //marginBottom: rhythm(3),
+              marginTop: 0,
             }}
-            to={`/`}
           >
-            {title}
-          </Link>
-        </h1>
+            Hey, I'm Abel
+          </h1>
+        </div>
       )
     } else {
       header = (
-        <h1
+        <h3
           style={{
-            ...scale(1.5),
+            ...scale(0.5),
             //fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
           }}
         >
           <Link
             style={{
+              textShadow: `none`,
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,
             }}
             to={`/`}
           >
-            {title}
+            Home
           </Link>
-        </h1>
+        </h3>
       )
     }
     return (
@@ -58,16 +52,17 @@ class Layout extends React.Component {
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: '800px',
+          minWidth: '325px',
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
+        <footer-main>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+          <a href="https://www.gatsbyjs.org">Gatsby</a> {' '} and modified by Abel Zatarain
+        </footer-main>
       </div>
     )
   }

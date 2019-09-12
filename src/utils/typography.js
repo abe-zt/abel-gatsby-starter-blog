@@ -1,17 +1,20 @@
 import Typography from "typography"
-import lincolnTheme from "typography-theme-lincoln"
+import fairyGatesTheme from "typography-theme-fairy-gates"
 
-lincolnTheme.overrideThemeStyles = () => {
+fairyGatesTheme.overrideThemeStyles = () => {
   return {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    "a": {
+      textShadow: `none`,
+    },
   }
 }
 
-delete lincolnTheme.googleFonts
+//delete fairyGatesTheme.googleFonts
 
-const typography = new Typography(lincolnTheme)
+const typography = new Typography(fairyGatesTheme)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {

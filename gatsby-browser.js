@@ -4,4 +4,4 @@
 //import "typeface-georgia"
 
 //global styles
-import "./src/styles/global.css"
+import "./src/styles/global.scss"
